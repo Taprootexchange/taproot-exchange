@@ -1,0 +1,42 @@
+.menu-box {
+  display: flex;
+
+  .title-item {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid transparent;
+    margin-right: 6px;
+    transition-property: border, background-color;
+    transition-duration: 0.5s;
+    border-radius: 5px;
+    background: rgba(93, 191, 105, 0.34);
+
+    a {
+      color: #fff;
+      display: block;
+      padding: 4px 14px;
+      font-family: Basel Book !important;
+      font-size: 18px;
+      font-weight: 485;
+    }
+  }
+
+  .title-item:hover {
+    border: 1px solid #53d258;
+    background-color: #5dbf69 !important;
+
+    a {
+      color: #ffffff;
+    }
+  }
+
+  .title-item-active {
+    border: 1px solid #53d258;
+    background-color: #5dbf69 !important;
+
+    a {
+      color: #ffffff;
+    }
+  }
+}

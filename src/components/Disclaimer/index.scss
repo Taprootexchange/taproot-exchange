@@ -1,0 +1,25 @@
+.Disclaimer {
+  .ant-modal-title {
+    font-size: 24px;
+    text-align: center;
+  }
+  .info {
+    margin-bottom: 30px;
+    height: 340px;
+    overflow-y: scroll;
+  }
+  .info h3 {
+    margin-top: 20px;
+  }
+  .info p {
+    margin-top: 10px;
+  }
+  .understand {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .ant-btn-primary:disabled {
+      background-color: #d9d9d9;
+    }
+  }
+}

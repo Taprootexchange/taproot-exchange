@@ -1,0 +1,20 @@
+<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Twitter">
+<g id="Ellipse 513" filter="url(#filter0_d_605_1832)">
+<circle cx="28" cy="24" r="20" fill="white"/>
+</g>
+<path id="Vector" d="M40.3779 16.3525C39.4814 16.7393 38.5059 17.0176 37.501 17.126C38.5381 16.5078 39.3262 15.5322 39.6982 14.3721C38.7402 14.9434 37.6562 15.3623 36.5283 15.5791C35.6143 14.6035 34.3164 14 32.8779 14C30.1094 14 27.8828 16.2441 27.8828 18.998C27.8828 19.3848 27.9297 19.7715 28.0059 20.1436C23.8604 19.9268 20.1631 17.9463 17.7051 14.9141C17.2715 15.6582 17.0254 16.5078 17.0254 17.4365C17.0254 19.1709 17.9072 20.7002 19.252 21.5996C18.4316 21.5674 17.6582 21.3359 16.9932 20.9639V21.0254C16.9932 23.4541 18.71 25.4668 20.998 25.9297C20.5791 26.0381 20.1309 26.0996 19.6826 26.0996C19.3574 26.0996 19.0498 26.0674 18.7393 26.0234C19.3721 28.0039 21.2148 29.4424 23.4092 29.4893C21.6924 30.834 19.542 31.625 17.207 31.625C16.7881 31.625 16.4014 31.6104 16 31.5635C18.2148 32.9844 20.8428 33.8047 23.6729 33.8047C32.8604 33.8047 37.8877 26.1934 37.8877 19.5869C37.8877 19.3701 37.8877 19.1533 37.873 18.9365C38.8457 18.2246 39.6982 17.3428 40.3779 16.3525Z" fill="#5DBF69"/>
+</g>
+<defs>
+<filter id="filter0_d_605_1832" x="0" y="0" width="56" height="56" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="4"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_605_1832"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_605_1832" result="shape"/>
+</filter>
+</defs>
+</svg>

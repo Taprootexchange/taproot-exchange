@@ -1,0 +1,22 @@
+.footer {
+  padding: 128px 0 20px;
+
+  .related-links {
+    text-align: center;
+    a {
+      cursor: pointer;
+    }
+
+    img {
+      width: 45px;
+      height: 45px;
+    }
+  }
+
+  .patent {
+    text-align: center;
+    color: #797979;
+    font-size: 14px;
+    font-weight: 400;
+  }
+}

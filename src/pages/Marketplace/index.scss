@@ -1,0 +1,122 @@
+.marketplace {
+  padding-top: 80px;
+  max-width: var(--max-width);
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-bottom: 30px;
+
+  .title-box {
+    margin: 0 auto;
+    margin-bottom: 59px;
+    width: 936px;
+
+    p:nth-child(1) {
+      color: #000;
+      text-align: center;
+      font-family: Basel Book;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 485;
+    }
+
+    p:nth-child(2) {
+      margin-top: 20px;
+      font-size: 16px;
+      font-weight: 600;
+      color: #000;
+      text-align: center;
+    }
+  }
+
+  .content {
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background: #fff;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+
+    .title {
+      color: #000;
+      margin-bottom: 20px;
+      font-size: 24px;
+      font-weight: 485;
+      font-family: Basel Book;
+    }
+  }
+
+  .content-box {
+    margin-top: 30px;
+
+    .ant-table-thead > tr > th,
+    .ant-table-thead > tr > td {
+      background-color: #f6f6f6;
+
+      color: #333;
+      font-weight: 400;
+    }
+
+    .ant-table-wrapper
+      .ant-table-thead
+      > tr
+      > th:not(:last-child):not(.ant-table-selection-column):not(
+        .ant-table-row-expand-icon-cell
+      ):not([colspan])::before {
+      display: none;
+    }
+
+    .ant-table-wrapper .ant-table-tbody > tr > td {
+      border-bottom: 1px solid #e9ecef;
+      cursor: pointer;
+    }
+
+    .assets-symbol {
+      display: flex;
+      align-items: center;
+
+      .tokens-logo {
+        width: 40px;
+        height: 40px;
+        margin-right: 8px;
+      }
+
+      .token-name {
+        color: #000;
+        margin-right: 8px;
+        font-family: Basel Book !important;
+        font-size: 16px;
+        font-weight: 485;
+      }
+
+      .token-icon {
+        width: 32px;
+        height: 32px;
+        margin-right: 8px;
+      }
+    }
+
+    .token-line {
+      border: none;
+      border-radius: 20px;
+      background: #f6f6f6;
+      color: #777e90;
+      font-size: 12px;
+      font-weight: 300;
+      margin-top: 3px;
+    }
+
+    .font-style {
+      color: #333;
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+}
+
+.trend-kline {
+  width: 110px;
+  height: 30px;
+}
+
+.bgc-box {
+  background-color: #fff;
+}

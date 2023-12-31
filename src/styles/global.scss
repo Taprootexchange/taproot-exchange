@@ -1,0 +1,145 @@
+:root {
+  --max-width: 1204px;
+}
+
+@font-face {
+  font-family: "Basel Regular";
+  src: url("../fonts/Basel-Regular.otf");
+}
+
+@font-face {
+  font-family: "Basel Book";
+  src: url("../fonts/Basel-Book.otf");
+}
+
+// font-family: Basel Book !important;
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  background-color: #f5f5f5;
+}
+
+.ant-table-row .ant-table-cell {
+  font-size: 16px;
+  height: 90px;
+}
+
+.ant-table-thead > tr > th {
+  height: 52px;
+  font-size: 14px !important;
+  font-weight: 400;
+}
+
+.ant-table-wrapper .ant-table-thead > tr > th {
+  font-weight: 400;
+  font-family: Basel Book !important;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100vw;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+* {
+  font-family: Basel Regular;
+  margin: 0;
+  padding: 0;
+}
+
+.ant-typography .ant-typography-copy {
+  color: #5dbf69 !important;
+}
+
+// buy and sell btn style
+:where(
+    .css-dev-only-do-not-override-cc7i9z
+  ).ant-radio-button-wrapper-checked:not(
+    .ant-radio-button-wrapper-disabled
+  )::before {
+  background-color: #d23850;
+}
+
+ol,
+ul,
+dl,
+li {
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  -webkit-user-select: none;
+  /* Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+/Edge */
+  user-select: none;
+  /* Standard syntax */
+}
+
+#taproot .color-green {
+  color: #5dbf69;
+}
+
+#taproot .color-red {
+  color: #d23850;
+}
+
+#taproot .sell-btn {
+  background-color: #d23850;
+}
+
+#taproot .sell-btn:hover {
+  background-color: rgba(210, 56, 80, 0.8);
+}
+
+.ant-typography-copy {
+  color: #5dbf69;
+}
+
+.detail-modal-box {
+  padding: 30px 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+
+  .item {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .title,
+    .content {
+      color: #333;
+      font-size: 16px;
+    }
+  }
+
+  .ant-typography {
+    display: flex;
+  }
+}
+
+.ant-message-custom-content {
+  display: flex;
+  align-items: center;
+}
